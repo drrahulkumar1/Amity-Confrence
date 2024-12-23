@@ -16,7 +16,7 @@ import 'bootstrap/dist/js/bootstrap.js';
 
 //styles
 import './styles/index.css';
-import OrganizingCommittee from './components/OrganizingCommittee';
+import ProgramCommittee from './components/ProgramCommittee';
 import AdvisoryComittee from './components/AdvisoryComittee';
 import ProfessorGrid from './components/ProfessorGrid';
 import CallForPapers from './components/CallForPapers';
@@ -33,7 +33,7 @@ export default function App(){
     <Header/>
       <Routes>
         <Route path="/" element={<Home/>}/>
-        <Route path="/organizing-committee" element={<OrganizingCommittee/>}/>
+        <Route path="/program-committee" element={<ProgramCommittee/>}/>
         <Route path="/Advisory-comittee" element={<AdvisoryComittee/>}/>
         <Route path="/Papers-call" element={<CallForPapers/>}/>
         <Route path="/register" element={<Register/>}/>

@@ -1,7 +1,7 @@
 import React from "react";
 import "../styles/OrganizingCommittee.css"; // Import the styles
 
-const committeeData = [
+const programData = [
   {
     title: "Secretary",
     members: ["Prof. (Dr.) Hemant Kr. Soni"],
@@ -40,7 +40,12 @@ const committeeData = [
   },
   {
     title: "IT Support",
-    members: ["Dr. Kapil Sharma", "Dr. D.K Mishra", "Dr. Madhavi Dhingra", "Dr. Mahakavi P."],
+    members: [
+      "Dr. Kapil Sharma",
+      "Dr. D.K Mishra",
+      "Dr. Madhavi Dhingra",
+      "Dr. Mahakavi P.",
+    ],
   },
   {
     title: "Anchoring",
@@ -48,11 +53,20 @@ const committeeData = [
   },
   {
     title: "Outcome Report",
-    members: ["Dr. Ghanshyam P Dubey", "Dr. Jhankar Moolchandani", "Ms. Anshita Shukla"],
+    members: [
+      "Dr. Ghanshyam P Dubey",
+      "Dr. Jhankar Moolchandani",
+      "Ms. Anshita Shukla",
+    ],
   },
   {
     title: "Publication",
-    members: ["Dr. Ripunjoy Gogoi", "Dr. Rajeev Goyal", "Dr. Samta Jain", "Dr. Anurag Tomer"],
+    members: [
+      "Dr. Ripunjoy Gogoi",
+      "Dr. Rajeev Goyal",
+      "Dr. Samta Jain",
+      "Dr. Anurag Tomer",
+    ],
   },
   {
     title: "Registration",
@@ -75,14 +89,14 @@ const CommitteeCard = ({ title, members }) => (
   </div>
 );
 
-const OrganizingCommittee = () => {
+const ProgramCommittee = () => {
   return (
     <div>
       <h2 style={{ textAlign: "center", marginTop: "20px", color: "#34495e" }}>
         Organizing Committee
       </h2>
       <div className="committee-grid">
-        {committeeData.map((committee, index) => (
+        {programData.map((committee, index) => (
           <CommitteeCard
             key={index}
             title={committee.title}
@@ -94,4 +108,4 @@ const OrganizingCommittee = () => {
   );
 };
 
-export default OrganizingCommittee;
+export default ProgramCommittee;

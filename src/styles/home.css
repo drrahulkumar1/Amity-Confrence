@@ -1,8 +1,8 @@
 /* Hero Section */
 .hero {
   height: 92vh;
-  background: linear-gradient(rgba(0, 0, 0, 0.571), rgba(0, 0, 0, 0.5)), 
-              url("../images/herobg.jpg");
+  background: linear-gradient(rgba(0, 0, 0, 0.571), rgba(0, 0, 0, 0.5)),
+    url("../images/herobg.jpg");
   z-index: 1;
   background-position: center;
   background-size: cover;
@@ -32,13 +32,21 @@
   color: white;
 }
 
-.custom-btn{
+.custom-btn {
   margin-bottom: 80px;
 }
 
 .tagline {
   font-weight: 500;
   font-size: 45px;
+  color: #fff;
+  margin-top: 20px;
+  text-shadow: 1px 1px 4px #000;
+}
+
+.date-info {
+  font-weight: 400;
+  font-size: 30px;
   color: #fff;
   margin-top: 20px;
   text-shadow: 1px 1px 4px #000;
@@ -87,7 +95,7 @@
 /* Speakers Section */
 #speakers {
   background: linear-gradient(0deg, rgba(0, 0, 0, 0.751), rgba(0, 0, 0, 0.788)),
-              url("https://www.thedigitaltransformationpeople.com/wp-content/uploads/2019/03/tech-conference-networking-tips.jpg");
+    url("https://www.thedigitaltransformationpeople.com/wp-content/uploads/2019/03/tech-conference-networking-tips.jpg");
   background-position: center;
   background-attachment: fixed;
   background-repeat: no-repeat;
@@ -96,6 +104,62 @@
   height: 160%;
   color: #fff;
   margin-left: -15px;
+  padding: 40px 0;
+}
+
+/* Card Styles */
+.card {
+  background-color: #ffffff;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  overflow: hidden;
+  height: 100%;
+  padding-top: 0;
+  /* Remove top padding */
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+}
+
+.card-img-top {
+  width: 240px;
+  height: 160px;
+  object-fit: cover;
+  border-radius: 50%;
+  /* Curved only at bottom */
+  margin: 0 auto;
+  display: block;
+  transition: all 0.3s ease;
+  border-bottom: 2px solid #f1f1f1;
+}
+
+
+.card-body {
+  padding: 1.5rem;
+  text-align: center;
+}
+
+.card-title1 {
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: #333333;
+  margin-bottom: 0.5rem;
+}
+
+.card-subtitle {
+  font-size: 1rem;
+  color: #666666;
+  margin-bottom: 1rem;
+}
+
+.speaker-details {
+  font-size: 0.9rem;
+  color: #555555;
+  line-height: 1.6;
 }
 
 /* Footer Area */
@@ -107,7 +171,7 @@
   position: relative;
   z-index: 1;
   box-shadow: 0 8px 48px 8px rgba(17, 17, 17, 0.789);
-  padding: 60px;
+  padding: 60px 60px 0px 60px;
 }
 
 .footer_area .row .col {
@@ -169,111 +233,80 @@
   float: right;
 }
 
-@media (max-width: 1020px) {
+/* Responsive Styles */
+@media (max-width: 1200px) {
+  .card-img-top {
+    width: 220px;
+    height: 140px;
+  }
+
+  .card-title1 {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 992px) {
+  .card-img-top {
+    width: 150px;
+    height: 150px;
+  }
+}
+
+@media (max-width: 768px) {
+  .header {
+    margin-top: 90px;
+  }
+
+  .tagline {
+    font-size: 24px;
+  }
+
+  .card-img-top {
+    width: 200px;
+    height: 130px;
+  }
+
+  .speaker-details {
+    font-size: 0.85rem;
+  }
+
   .section5 {
     display: block;
   }
+
   .section5 section {
     padding: 1rem 1rem;
     text-align: center;
   }
+
   .section5 section .btn2 {
     float: none;
   }
 }
 
-/* Mobile Responsiveness */
-@media screen and (max-device-width: 576px) {
-  .header {
-    margin-top: 90px;
-  }
+@media screen and (max-width: 576px) {
   .header p {
     font-weight: 200;
     letter-spacing: 0.05rem;
     margin-top: 25px;
   }
-  .tagline {
-    font-size: 24px;
-  }
+
   #mainabout {
     padding: 20px;
   }
+
   #about img {
     display: none;
   }
+
+  .card-img-top {
+    width: 180px;
+    height: 120px;
+  }
+
   .footer_social_area a {
     height: 30px;
     width: 30px;
     line-height: 20px;
-  }
-}
-/* Styling for keynote speaker cards */
-/* Styling for keynote speaker cards */
-.card {
-  background-color: #ffffff;
-  border: none;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-  transition: transform 0.2s ease, box-shadow 0.2s ease;
-}
-
-.card:hover {
-  transform: scale(1.05);
-  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15);
-}
-
-.card-title {
-  font-size: 1.25rem;
-  font-weight: bold;
-  color: #333333;
-}
-.card-title1 {
-  font-size: 1.1rem;
-  font-weight: bold;
-  color: #333333;
-}
-
-.card-subtitle {
-  font-size: 1rem;
-  color: #555555;
-}
-
-.card-text.speaker-details {
-  font-size: 0.9rem;
-  color: #666666;
-  line-height: 1.6;
-}
-
-.card-img-top {
-  height: 240px;
-  width: 150px;
-  object-fit: cover;
-  border-radius: 50%;
-  margin: 15px auto;
-  border: 3px solid #ccc;
-  display: block;
-}
-
-.card-body {
-  padding: 1.5rem;
-}
-
-.row-cols-md-3 .col {
-  margin-bottom: 1rem;
-}
-
-/* For smaller screens */
-@media (max-width: 768px) {
-  .card-title {
-      font-size: 1.1rem;
-  }
-  .card-subtitle {
-      font-size: 0.9rem;
-  }
-  .card-text.speaker-details {
-      font-size: 0.85rem;
-  }
-  .card-img-top {
-      height: 120px;
-      width: 120px;
   }
 }
