@@ -1,15 +1,16 @@
 import React from "react";
 import '../styles/header.css';
 import logo from '../images/logo.png';
+import { Link } from "react-router-dom";
 
 function Header() {    
     return (
         <>
             <nav className="navbar fixed-top navbar-expand-lg pastel-navbar px-0 py-3" id="navbar">
                 <div className="container-xl">
-                    <a className="navbar-brand" href="#">
+                    <Link to="/">
                         <img src={logo} className="logo" alt="Amity logo" />
-                    </a>
+                        </Link>
                     <button 
                         className="navbar-toggler" 
                         type="button" 
@@ -23,15 +24,14 @@ function Header() {
                     </button>
                     <div className="collapse navbar-collapse" id="navbarCollapse">
                         <div className="navbar-nav mx-lg-auto">
-                            <a className="nav-item nav-link active" href="/" aria-current="page">Home</a>
+                            <a className="nav-item nav-link" href="/" aria-current="page">Home</a>
                             <a className="nav-item nav-link" href="/#mainabout">About</a>
                             <a className="nav-item nav-link" href="/#speakers">Speakers</a>
                             <div className="nav-item dropdown">
                                 <a href="#" className="nav-link dropdown-toggle" data-bs-toggle="dropdown">Schedule</a>
                                 <div className="dropdown-menu">
-                                    <a className="dropdown-item" href="/schedule/day1">Day 1</a>
-                                    <a className="dropdown-item" href="/schedule/day2">Day 2</a>
-                                    <a className="dropdown-item" href="/schedule/day3">Day 3 (Awarding Ceremony)</a>
+                                    <Link to="/Day1" style={{"display":"block", "margin":"0 50px"}}>Day1</Link>
+                                    <Link to="/Day2" style={{"display":"block", "margin":"0 50px"}}>Day2</Link>
                                 </div>
                             </div>          
                             <a className="nav-item nav-link" href="#footer">Contact</a>
