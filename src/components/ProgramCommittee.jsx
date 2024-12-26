@@ -91,7 +91,12 @@ const CommitteeCard = ({ title, members }) => (
 
 const ProgramCommittee = () => {
   return (
-    <div>
+    <div
+      style={{
+        marginBottom: "50px",
+        marginTop: "150px",
+      }}
+    >
       <h2 style={{ textAlign: "center", marginTop: "20px", color: "#34495e" }}>
         Organizing Committee
       </h2>

@@ -105,11 +105,13 @@ function Home() {
               {/* Keynote Speaker 1 */}
               <div className="col">
                 <div className="card shadow-sm h-100">
-                  <img
-                    src={speaker1}
-                    alt="Prof. (Dr.) Tanmoy Som"
-                    className="card-img-top "
-                  />
+                  <div className="card-img-container">
+                    <img
+                      src={speaker1}
+                      alt="Prof. (Dr.) Tanmoy Som"
+                      className="card-img-top"
+                    />
+                  </div>
                   <div className="card-body text-center">
                     <h5 className="card-title1">Prof. (Dr.) Tanmoy Som</h5>
                     <p className="card-subtitle mb-2 text-muted">Professor</p>
@@ -123,11 +125,13 @@ function Home() {
               {/* Keynote Speaker 2 */}
               <div className="col">
                 <div className="card shadow-sm h-100">
-                  <img
-                    src={speaker2}
-                    alt="Prof. (Dr.) Karm Veer Arya"
-                    className="card-img-top"
-                  />
+                  <div className="card-img-container">
+                    <img
+                      src={speaker2}
+                      alt="Prof. (Dr.) Karm Veer Arya"
+                      className="card-img-top"
+                    />
+                  </div>
                   <div className="card-body text-center">
                     <h5 className="card-title1">Prof. (Dr.) Karm Veer Arya</h5>
                     <p className="card-subtitle mb-2 text-muted">Professor</p>
@@ -141,11 +145,13 @@ function Home() {
               {/* Keynote Speaker 3 */}
               <div className="col">
                 <div className="card shadow-sm h-100">
-                  <img
-                    src={speaker3}
-                    alt="Prof. (Dr.) Gautam Srivastava"
-                    className="card-img-top"
-                  />
+                  <div className="card-img-container">
+                    <img
+                      src={speaker3}
+                      alt="Prof. (Dr.) Gautam Srivastava"
+                      className="card-img-top"
+                    />
+                  </div>
                   <div className="card-body text-center">
                     <h5 className="card-title1">
                       Prof. (Dr.) Gautam Srivastava
@@ -161,11 +167,13 @@ function Home() {
               {/* Keynote Speaker 4 */}
               <div className="col">
                 <div className="card shadow-sm h-100">
-                  <img
-                    src={speaker4}
-                    alt="Prof. (Dr.)Lenin Babu Russeliah"
-                    className="card-img-top"
-                  />
+                  <div className="card-img-container">
+                    <img
+                      src={speaker4}
+                      alt="Prof. (Dr.)Lenin Babu Russeliah"
+                      className="card-img-top"
+                    />
+                  </div>
                   <div className="card-body text-center">
                     <h5 className="card-title1">
                       Prof. (Dr.)Lenin Babu Russeliah
@@ -199,11 +207,13 @@ function Home() {
               {/* Keynote Speaker 1 */}
               <div className="col">
                 <div className="card shadow-sm h-100">
-                  <img
-                    src={oc1}
-                    alt="Prof. (Dr.) Tanmoy Som"
-                    className="card-img-top "
-                  />
+                  <div className="card-img-container">
+                    <img
+                      src={oc1}
+                      alt="Prof. (Dr.) Tanmoy Som"
+                      className="card-img-top "
+                    />
+                  </div>
                   <div className="card-body text-center">
                     <h5 className="card-title1">Prof. (Dr.) Vikas Thada</h5>
                     <p className="card-subtitle mb-2 text-muted">Professor</p>
@@ -217,11 +227,13 @@ function Home() {
               {/* Keynote Speaker 2 */}
               <div className="col">
                 <div className="card shadow-sm h-100">
-                  <img
-                    src={oc2}
-                    alt="Dr.Ashok Kumar"
-                    className="card-img-top"
-                  />
+                  <div className="card-img-container">
+                    <img
+                      src={oc2}
+                      alt="Dr.Ashok Kumar"
+                      className="card-img-top"
+                    />
+                  </div>
                   <div className="card-body text-center">
                     <h5 className="card-title1">Dr.Ashok Kumar</h5>
                     <p className="card-subtitle mb-2 text-muted">
@@ -237,11 +249,13 @@ function Home() {
               {/* Keynote Speaker 3 */}
               <div className="col">
                 <div className="card shadow-sm h-100">
-                  <img
-                    src={oc3}
-                    alt="Dr. Rahul Kumar"
-                    className="card-img-top"
-                  />
+                  <div className="card-img-container">
+                    <img
+                      src={oc3}
+                      alt="Dr. Rahul Kumar"
+                      className="card-img-top"
+                    />
+                  </div>
                   <div className="card-body text-center">
                     <h5 className="card-title1">Dr. Rahul Kumar</h5>
                     <p className="card-subtitle mb-2 text-muted">
@@ -257,7 +271,9 @@ function Home() {
               {/* Keynote Speaker 4 */}
               <div className="col">
                 <div className="card shadow-sm h-100">
-                  <img src={oc4} alt="Dr.A.Daniel" className="card-img-top" />
+                  <div className="card-img-container">
+                    <img src={oc4} alt="Dr.A.Daniel" className="card-img-top" />
+                  </div>
                   <div className="card-body text-center">
                     <h5 className="card-title1">Dr.A.Daniel</h5>
                     <p className="card-subtitle mb-2 text-muted">
@@ -272,11 +288,13 @@ function Home() {
               </div>
               <div className="col">
                 <div className="card shadow-sm h-100">
-                  <img
-                    src={oc5}
-                    alt="Dr.Jhankar Moolchandani"
-                    className="card-img-top"
-                  />
+                  <div className="card-img-container">
+                    <img
+                      src={oc5}
+                      alt="Dr.Jhankar Moolchandani"
+                      className="card-img-top"
+                    />
+                  </div>
                   <div className="card-body text-center">
                     <h5 className="card-title1">Dr.Jhankar Moolchandani</h5>
                     <p className="card-subtitle mb-2 text-muted">

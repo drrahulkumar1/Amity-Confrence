@@ -1,6 +1,5 @@
 import React from "react";
 import "../styles/day.css";
-import { FaFacebook,FaInstagram,FaLinkedin,FaTwitter} from 'react-icons/fa';
 
 function Day1(){
     return(
