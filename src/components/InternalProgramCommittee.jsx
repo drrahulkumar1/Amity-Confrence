@@ -1,18 +1,15 @@
-import React from "react";
-import "../styles/OrganizingCommittee.css"; // Import the styles
+import { useEffect } from "react";
 
 const programData = [
   {
-    title: "Secretary",
-    members: ["Prof. (Dr.) Hemant Kr. Soni"],
-  },
-  {
-    title: "Co-Secretary",
-    members: ["Dr. Anuj Kumar Singh"],
-  },
-  {
-    title: "Co-Convener",
-    members: ["Dr. Rahul Kumar", "Dr. Ashok Kumar"],
+    title: "Organizing Committee",
+    members: [
+      "Prof. (Dr.) Vikas Thada",
+      "Dr. Rahul Kumar",
+      "Dr.A.Daniel",
+      "Dr.Ashok Kumar",
+      "Dr.Jhankar Moolchandani",
+    ],
   },
   {
     title: "Technical Program",
@@ -77,30 +74,37 @@ const programData = [
     members: ["Mr. Ashish Tripathi", "Mr. Manish Khule"],
   },
 ];
-
 const CommitteeCard = ({ title, members }) => (
-  <div className="committee-card">
-    <h3 className="committee-title">{title}</h3>
-    <ul>
+  <div className="bg-white rounded-lg shadow-md p-6 transform transition-transform duration-300 hover:-translate-y-1">
+    <h3 className="text-xl text-[#34495e] border-b-2 border-[#3498db] pb-2 mb-3 text-center font-semibold">
+      {title}
+    </h3>
+    <ul className="list-none p-0 m-0">
       {members.map((member, index) => (
-        <li key={index}>{member}</li>
+        <li key={index} className="text-gray-600 my-1 text-center">
+          {member}
+        </li>
       ))}
     </ul>
   </div>
 );
 
-const ProgramCommittee = () => {
+const InternalProgramCommittee = () => {
+  useEffect(() => {
+    function scrollToTop() {
+      window.scrollTo({
+        top: 0,
+        behavior: "smooth",
+      });
+    }
+    scrollToTop();
+  }, []);
   return (
-    <div
-      style={{
-        marginBottom: "50px",
-        marginTop: "150px",
-      }}
-    >
-      <h2 style={{ textAlign: "center", marginTop: "20px", color: "#34495e" }}>
-        Organizing Committee
+    <div className="bg-[#f4f6fb] min-h-screen">
+      <h2 className="text-center text-[#34495e] text-3xl font-bold py-8">
+        Internal Program Committee
       </h2>
-      <div className="committee-grid">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6 p-6 max-w-7xl mx-auto">
         {programData.map((committee, index) => (
           <CommitteeCard
             key={index}
@@ -113,4 +117,4 @@ const ProgramCommittee = () => {
   );
 };
 
-export default ProgramCommittee;
+export default InternalProgramCommittee;

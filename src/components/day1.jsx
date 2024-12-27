@@ -1,20 +1,23 @@
-import React from "react";
-import "../styles/day.css";
-
-function Day1(){
-    return(
-        <div style={
-            {
-                "width": "100%",
-                "height": "100vh",
-                "display": "flex",
-                "align-items": "center",
-                "justify-content": "center",
-            }
-        }>
-        <h1>Under Progress</h1>
-        </div>  
-    );
-}
+import { useEffect } from "react";
+import { IoConstruct } from "react-icons/io5";
+const Day1 = () => {
+  useEffect(() => {
+    function scrollToTop() {
+      window.scrollTo({
+        top: 0,
+        behavior: "smooth",
+      });
+    }
+    scrollToTop();
+  }, []);
+  return (
+    <div className="flex flex-col w-[100vw] h-[100vh] items-center justify-center text-gray-700">
+      <p>
+        <IoConstruct className="text-9xl" />
+      </p>
+      <p className="font-bold text-6xl">Under Progress</p>
+    </div>
+  );
+};
 
 export default Day1;
