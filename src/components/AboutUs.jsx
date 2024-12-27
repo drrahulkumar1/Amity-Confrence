@@ -11,6 +11,7 @@ const AboutUs = () => {
     }
     scrollToTop();
   }, []);
+
   const leadershipData = [
     {
       title: "Patron-in-Chief",
@@ -72,9 +73,69 @@ const AboutUs = () => {
             Dwitiya Sanshodhan Adhiniyam (No. 27 of 2010) vide State Government
             Notification No. 7692-406 dated 30 Dec 2010, with the view to
             promote professional, industry-oriented education in the state of
-            Madhya Pradesh.
+            Madhya Pradesh. Amity University Madhya Pradesh, Gwalior located on
+            a sprawling campus of 102 acres of land opposite Gwalior Airport,
+            imparts modern, practical and research-oriented courses which lead
+            to the development of professionals who are employable and industry
+            ready. This in turn drives the socio-economic upliftment of the
+            region.
           </p>
-          {/* Note: Continue with all paragraphs similarly */}
+          <p>
+            Amity University Madhya Pradesh (AUMP) imparts education in almost
+            all areas including management, engineering, architecture,
+            biotechnology, law, Journalism & mass communication, behavioral
+            science, Psychology, fashion, Political Science, Pharmacy etc.
+          </p>
+          <p>
+            AUMP has state of the art infrastructure with modern amenities which
+            matches with the best across the country and is of international
+            standards. The whole campus is wi-fi enabled. Electricity is
+            available 24X7 and all the buildings are air conditioned.
+          </p>
+          <p>
+            The university has its own intranet named AMIZONE (Acronym for Amity
+            Intranet Zone), which is equipped to store all the academics and
+            administrative data of the university, thus promoting
+            digitalization. Session Plans, Lesson Plans, Examination Details,
+            Fee Details, Payment Details, Attendance Report, Grievance
+            Redressal, and other administrative details are all available
+            through AMIZONE. The students can access study materials and
+            tutorials anytime, anywhere which is a step towards beyond class
+            room teaching. Mentor Mentee systems are in placed in the campus
+            with an objective of mentoring and recognizing the potential of
+            students and help improve their self-esteem and confidence. Apart
+            from this trained counsellors have been appointed to provide prompt
+            assistance on issues related to health and emotional wellness.
+          </p>
+          {/* Additional paragraphs from UpdatedAbout.jsx */}
+          <p>
+            The courses offered by AUMP are evaluated regularly to achieve the
+            course objectives based on the feedback on placement, employability
+            and latest development in technology to keep pace with the changing
+            times. Faculties and students of AUMP are encouraged to carry out
+            industry oriented cutting edge research work in the university. The
+            faculties of AUMP have been successful in getting several sponsored
+            projects from various state and national funding agencies.
+          </p>
+          <p>
+            Grooming and etiquette, Communication Enhancement Classes,
+            Behavioural Science, One Foreign Language, Pre-placement Training
+            Classes, and Aptitude Training Classes are a part of curriculum,
+            which helps in overall development of the students. The University
+            offers a Choice Based Credit System, wherein a student can select
+            any one of the 38 minor tracks across discipline.
+          </p>
+          <p>
+            In terms of placement, AUMP has consistently achieved outstanding
+            results, with an average annual campus placement rate exceeding 90%
+            over the past five years (2018-2019, 2019-2020, 2020-2021,
+            2021-2022, and 2022-2023). Notably, the highest annual CTC offered
+            last year was INR 14.95 Lac by CISCO, and this year, it has reached
+            INR 34.5 Lac PA, offered by COMMVAULT. The average annual CTC
+            package has also seen a remarkable 20% improvement compared to the
+            previous year.
+          </p>
+          {/* Continue with all other paragraphs from UpdatedAbout.jsx... */}
         </div>
       </section>
 
@@ -95,7 +156,21 @@ const AboutUs = () => {
             view to promote professional, industry-oriented education in the
             state of Madhya Pradesh.
           </p>
-          {/* Continue with other paragraphs */}
+          <p>
+            Amity School of Engineering & Technology (ASET) is committed to
+            producing industry-ready professionals through a blend of
+            theoretical knowledge and practical experience. With a strong
+            emphasis on innovation, emerging technologies, and research, ASET
+            leads in engineering education in Madhya Pradesh.
+          </p>
+          <p>
+            Amity School of Engineering and Technology Gwalior offers a wide
+            range of UG and PG programmes. All our courses within the programmes
+            prepare the students to be industry oriented and increase their
+            employability. The teaching pedagogy used within curriculum enhances
+            learning and orients students to have an analytical as well
+            research-oriented outlook towards business world.
+          </p>
         </div>
       </section>
 
@@ -110,8 +185,20 @@ const AboutUs = () => {
             Industries, Healthcare, Research and Education-2025 (AIIHRE2K25)" is
             to provide a comprehensive platform for exploring the transformative
             potential of Artificial Intelligence (AI) across diverse domains.
+            This conference aims to bring together academics, researchers,
+            industry leaders, healthcare professionals, and educators to
+            exchange knowledge, foster collaboration, and share innovative
+            solutions driven by AI technologies. The conference seeks to
+            highlight the latest advancements and real-world applications of AI
+            in improving industrial processes, enhancing healthcare outcomes,
+            advancing cutting-edge research, and revolutionizing education. It
+            aims to address pressing challenges such as ethical considerations,
+            data privacy, and equitable access while promoting responsible AI
+            development and deployment. Furthermore, the conference aims to
+            empower policymakers, educators, and practitioners with insights to
+            shape the future of AI-driven innovations, ensuring their
+            sustainable and ethical implementation.
           </p>
-          {/* Continue with other text */}
         </div>
       </section>
 

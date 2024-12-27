@@ -1,4 +1,7 @@
-import React from "react";
+import speaker1 from "../images/speaker1.jpeg";
+import speaker2 from "../images/speaker2.jpeg";
+import speaker3 from "../images/speaker3.jpeg";
+import speaker4 from "../images/speaker4.jpeg";
 
 const KeynoteSpeakers = () => {
   const speakers = [
@@ -7,28 +10,28 @@ const KeynoteSpeakers = () => {
       title: "Professor",
       affiliation:
         "Dept. of Mathematical Sciences, Indian Institute of Technology (Banaras Hindu University), Varanasi",
-      image: "/src/images/speaker1.jpeg",
+      image: speaker1,
     },
     {
       name: "Prof. (Dr.) Karm Veer Arya",
       title: "Professor",
       affiliation:
         "Coordinator, Multimedia and Information Security Research Group, IIIT, Gwalior.",
-      image: "/src/images/speaker2.jpeg",
+      image: speaker2,
     },
     {
       name: "Prof. (Dr.) Gautam Srivastava",
       title: "Professor",
       affiliation:
         "Department of Mathematics & Computer Science, Brandon University, Brandon, MB, Canada",
-      image: "/src/images/speaker3.jpeg",
+      image: speaker3,
     },
     {
       name: "Prof. (Dr.)Lenin Babu Russeliah",
       title: "Data Scientist",
       affiliation:
         "Product Engineering Manager ConverSight Columbus, Indiana, United States",
-      image: "/src/images/speaker4.jpeg",
+      image: speaker4,
     },
   ];
 

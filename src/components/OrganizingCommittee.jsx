@@ -1,3 +1,8 @@
+import oc1 from "../images/oc1.jpg";
+import oc2 from "../images/oc2.jpg";
+import oc3 from "../images/oc3.jpg";
+import oc4 from "../images/oc4.jpg";
+import oc5 from "../images/oc5.jpg";
 const OrganizingCommittee = () => {
   const members = [
     {
@@ -5,35 +10,35 @@ const OrganizingCommittee = () => {
       title: "Professor",
       affiliation:
         "Amity School of Engineering and Technology, Amity University Madhya Pradesh, Gwalior",
-      image: "/src/images/oc1.jpg",
+      image: oc1,
     },
     {
       name: "Dr.Ashok Kumar",
       title: "Associate Professor",
       affiliation:
         "Amity School of Engineering and Technology, Amity University Madhya Pradesh, Gwalior",
-      image: "/src/images/oc2.jpg",
+      image: oc2,
     },
     {
       name: "Dr. Rahul Kumar",
       title: "Associate Professor",
       affiliation:
         "Amity School of Engineering and Technology, Amity University Madhya Pradesh, Gwalior",
-      image: "/src/images/oc3.jpg",
+      image: oc3,
     },
     {
       name: "Dr.A.Daniel",
       title: "Associate Professor",
       affiliation:
         "Amity School of Engineering and Technology, Amity University Madhya Pradesh, Gwalior",
-      image: "/src/images/oc4.jpg",
+      image: oc4,
     },
     {
       name: "Dr.Jhankar Moolchandani",
       title: "Assistant Professor",
       affiliation:
         "Amity School of Engineering and Technology, Amity University Madhya Pradesh, Gwalior",
-      image: "/src/images/oc5.jpg",
+      image: oc5,
     },
   ];
 

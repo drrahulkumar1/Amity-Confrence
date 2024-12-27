@@ -81,7 +81,7 @@ const CallForPapers = () => {
                   </h4>
                   <ul className="ml-6 space-y-1">
                     {theme.items.map((item, i) => (
-                      <li key={i} className="text-gray-600">
+                      <li key={i} className="text-gray-600 list-disc">
                         {item}
                       </li>
                     ))}
@@ -95,11 +95,19 @@ const CallForPapers = () => {
             <h3 className="text-2xl font-bold text-gray-800 mb-4">
               Important Dates
             </h3>
-            <ul className="space-y-2 text-gray-600">
-              <li>Abstract Submission Deadline: Not Decided</li>
-              <li>Acceptance Notification: Not Decided</li>
-              <li>Full Paper Submission Deadline: Not Decided</li>
-              <li>Conference Date: 28th & 29th May 2025</li>
+            <ul className="space-y-2 text-gray-600 ml-5">
+              <li className="list-decimal">
+                Abstract Submission Deadline: Not Decided
+              </li>
+              <li className="list-decimal">
+                Acceptance Notification: Not Decided
+              </li>
+              <li className="list-decimal">
+                Full Paper Submission Deadline: Not Decided
+              </li>
+              <li className="list-decimal">
+                Conference Date: 28th & 29th May 2025
+              </li>
             </ul>
           </section>
 

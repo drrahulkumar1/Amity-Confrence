@@ -1,8 +1,5 @@
-import {
-  FaFacebook,
-  FaLinkedin,
-  FaTwitter,
-} from "react-icons/fa";
+import { FaFacebook, FaLinkedin, FaTwitter } from "react-icons/fa";
+import advisor1 from "../images/speaker1.jpeg";
 import { useEffect } from "react";
 
 const AdvisoryCommittee = () => {
@@ -19,33 +16,33 @@ const AdvisoryCommittee = () => {
     {
       name: "Dr. Ashok K. Chauhan",
       title: "Hon'ble Founder President, RBEF",
-      image: "/src/images/speaker1.jpeg",
+      image: advisor1,
     },
     {
       name: "Dr. Aseem Chauhan",
       title: "Hon'ble Chancellor & Chairman, Amity University Madhya Pradesh",
-      image: "/src/images/speaker1.jpeg",
+      image: advisor1,
     },
     {
       name: "Lt. Gen. V.K. Sharma, AVSM (Retd.)",
       title: "Hon'ble Pro-Chancellor, Amity University Madhya Pradesh",
-      image: "/src/images/speaker1.jpeg",
+      image: advisor1,
     },
     {
       name: "Prof. (Dr.) R.S. Tomar",
       title:
         "Hon'ble Vice Chancellor (Officiating), Amity University Madhya Pradesh",
-      image: "/src/images/speaker1.jpeg",
+      image: advisor1,
     },
     {
       name: "Prof. (Dr.) M.P. Kaushik",
       title: "Hon'ble Pro-Vice Chancellor (R), Amity University Madhya Pradesh",
-      image: "/src/images/speaker1.jpeg",
+      image: advisor1,
     },
     {
       name: "Prof. (Dr.) Vikas Thada",
       title: "Director (Officiating), Amity School of Engineering & Technology",
-      image: "/src/images/speaker1.jpeg",
+      image: advisor1,
     },
   ];
 
