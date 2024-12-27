@@ -1,6 +1,6 @@
 import speaker1 from "../images/speaker1.jpeg";
 import speaker2 from "../images/speaker2.jpeg";
-import speaker3 from "../images/speaker3.jpeg";
+import speaker3 from "../images/Speaker3.jpeg";
 import speaker4 from "../images/speaker4.jpeg";
 
 const KeynoteSpeakers = () => {
