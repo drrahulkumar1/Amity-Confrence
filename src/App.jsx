@@ -8,7 +8,7 @@ import Footer from "./components/footer";
 import Header from "./components/header";
 import Home from "./components/home";
 import InternalProgramCommittee from "./components/InternalProgramCommittee";
-import Register from "./components/Register";
+import Register from "./components/register";
 import TechnicalAdvisoryCommittee from "./components/TechnicalAdvisoryCommittee";
 import TechnicalCommittee from "./components/TechnicalCommittee";
 
